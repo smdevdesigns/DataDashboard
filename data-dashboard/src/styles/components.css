@@ -58,6 +58,7 @@
 
 .muted {
   color: var(--muted);
+  margin-left: 4px;
 }
 
 .small {
@@ -535,6 +536,7 @@
   background: #d91e3a;
   color: #ffffff;
   box-shadow: 0 3px 10px rgba(217, 30, 58, 0.25);
+  font-weight: 700;
 }
 
 .severity-critical .severity-indicator {
@@ -545,7 +547,7 @@
   background: #ffad42;
   color: #052f6d;
   border: none;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .severity-high .severity-indicator {
@@ -556,6 +558,7 @@
   background: #ffd52a;
   color: #553600;
   box-shadow: 0 3px 10px rgba(255, 213, 42, 0.2);
+  font-weight: 700;
 }
 
 .severity-medium .severity-indicator {
@@ -566,6 +569,7 @@
   background: #079ccb;
   color: #ffffff;
   box-shadow: 0 3px 10px rgba(7, 156, 203, 0.25);
+  font-weight: 700;
 }
 
 .severity-low .severity-indicator {

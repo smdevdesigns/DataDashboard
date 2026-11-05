@@ -1,3 +1,4 @@
+
 import { ArrowDownRight, ArrowUpRight } from "lucide-react";
 
 type Metric = {
@@ -16,13 +17,13 @@ interface MetricCardProps {
 export default function MetricCard({ item }: MetricCardProps) {
   return (
     <article className="metric-card">
-      <div className="metric-label">{item.label}</div>
+      <div className="metric-label">
+        {item.label}
+      </div>
 
       <div className="metric-value">
         {item.value}
-        {item.suffix && (
-          <span className="small muted"> {item.suffix}</span>
-        )}
+        <span className="small muted"> {item.suffix}</span>
       </div>
 
       <div className={`metric-change ${item.good ? "good" : "bad"}`}>
@@ -33,6 +34,7 @@ export default function MetricCard({ item }: MetricCardProps) {
         )}
 
         <span>{item.change}</span>
+
         <span className="muted">{item.note}</span>
       </div>
     </article>
