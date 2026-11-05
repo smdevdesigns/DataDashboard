@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color-scheme: dark;
+  --page: #071426;
+  --surface: #0d2038;
+  --surface-raised: #091a2e;
+  --surface-input: #0a1b30;
+  --text: #dce8f5;
+  --text-strong: #f4f8fc;
+  --muted: #9bb0c7;
+  --subtle: #6f87a2;
+  --line: rgb(148 181 214 / 16%);
+  --line-soft: rgb(148 181 214 / 10%);
+  --accent: #f28c28;
+  --accent-soft: rgb(242 140 40 / 15%);
+  --accent-text: #ffc078;
+  --blue: #3997e8;
+  --blue-soft: rgb(57 151 232 / 14%);
+  --success: #42c99a;
+  --warning: #f5a742;
+  --danger: #f07864;
+  --info: #62b5f4;
+  --radius: 1rem;
+  --radius-sm: .65rem;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --shadow: 0 18px 50px rgb(0 0 0 / 24%);
+}
